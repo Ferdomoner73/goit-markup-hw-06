@@ -412,6 +412,27 @@
             </li>
           </ul>
         </div>
+
+        <form class="foot-form">
+          <label for="email-sub" class="foot-info-heading">Subscribe</label>
+
+          <div class="foot-form-enter">
+            <input
+              type="email"
+              name="email"
+              id="email-sub"
+              placeholder="E-mail"
+              class="foot-email"
+            />
+
+            <button class="btn-foot-sub foot-info-heading" type="submit">
+              Subscribe
+              <svg width="24px" height="20px" class="sub-icon">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
 
@@ -425,6 +446,89 @@
             </svg>
           </buttom>
         </div>
+        <p class="foot-info-heading heading modal-info">
+          Leave your contacts and we will call you back
+        </p>
+        <form>
+          <div class="form-piece">
+            <label for="name" class="form-input-heading"
+              >Name
+              <span class="name-icon">
+                <svg width="18px" height="18px">
+                  <use href="./images/icons.svg#icon-person"></use>
+                </svg>
+              </span>
+            </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="input-field"
+              autofocus
+            />
+          </div>
+
+          <div class="form-piece">
+            <label for="tel" class="form-input-heading"
+              >Phone
+              <span class="phone-icon">
+                <svg width="18px" height="24px">
+                  <use href="./images/icons.svg#icon-phone-input"></use>
+                </svg>
+              </span>
+            </label>
+            <input type="tel" name="tel" id="tel" class="input-field" />
+          </div>
+
+          <div class="form-piece">
+            <label for="email" class="form-input-heading"
+              >Email
+              <span class="email-icon">
+                <svg width="18px" height="24px">
+                  <use href="./images/icons.svg#icon-email-input"></use>
+                </svg>
+              </span>
+            </label>
+            <input type="email" name="email" id="email" class="input-field" />
+          </div>
+
+          <div class="form-piece">
+            <label for="description" class="form-input-heading">Comment</label>
+            <textarea
+              name="description"
+              placeholder="Text input"
+              id="description"
+              cols="30"
+              rows="10"
+              class="input-field form-text-area"
+            ></textarea>
+          </div>
+
+          <div class="form-check">
+            <input
+              type="checkbox"
+              name="checkbox"
+              id="checkbox"
+              class="checkbox-input"
+            />
+            <span class="form-check-icon">
+              <svg width="10px" height="8px" class="check-icon">
+                <use href="./images/icons.svg#icon-agree"></use>
+              </svg>
+            </span>
+            <label for="checkbox" class="form-checkbox"
+              >I accept the terms and conditions of the
+              <a href="" style="color: #4d5ae5">Privacy Policy</a></label
+            >
+          </div>
+
+          <button
+            type="submit"
+            class="btn-foot-sub foot-info-heading btn-modal"
+          >
+            Send
+          </button>
+        </form>
       </div>
     </div>
 
