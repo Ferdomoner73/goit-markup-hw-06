@@ -651,12 +651,13 @@ img {
 }
 
 .modal {
+  position: relative;
   height: 100%;
   width: 100%;
   max-width: 408px;
   max-height: 584px;
 
-  padding: 24px;
+  padding: 0 24px 24px 24px;
 
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -674,6 +675,9 @@ img {
 }
 
 .modal-close {
+  position: absolute;
+  right: 24px;
+  top: 24px;
   height: 24px;
   width: 24px;
   margin-left: auto;
@@ -704,7 +708,7 @@ img {
 }
 
 .modal-info {
-  margin-top: 24px;
+  padding-top: 72px;
   color: var(--heading-main-color);
   justify-content: center;
 }
